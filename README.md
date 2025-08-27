@@ -68,6 +68,7 @@ df <- as.data.frame(raw) |>
   arrange(data)
 
 
+![imagem_serie_1](./series_image_1.jpeg)
 Nota: O tratamento foi realizado em Python e em R (para comparabilidade).
 
 Tratamento & EDA
@@ -78,6 +79,7 @@ Conversão de datas com pd.to_datetime(..., dayfirst=True) e ordenação crescen
 
 Conversão de “valor” para float.
 
+![series_image_2](./series_image_2.jpeg)
 Remoção de tendência, análise de sazonalidade (período de 12 meses), transformação log/Box–Cox quando adequado.
 
 Decomposição aditiva (tendência, sazonalidade e resíduo).
@@ -92,18 +94,7 @@ Sazonalidade mensal por ano:
 
 ACF e PACF:
 
-
-- ![imagem_serie_1](./imagem_serie_1.png)
-+ ![imagem_serie_1](./series_image_1.jpeg)
-
-- ![series_image_2](./series_image_2.png)
-+ ![series_image_2](./series_image_2.jpeg)
-
-- ![series_image_3](./series_image_3.png)
-+ ![series_image_3](./series_image_3.jpeg)
-
-- ![series_image_4](./series_image_4.png)
-+ ![series_image_4](./series_image_4.jpeg)
+![series_image_3](./series_image_3.jpeg)
 
 Modelagem
 
@@ -140,6 +131,8 @@ ARCH (Engle) / McLeod–Li: sinais de heterocedasticidade condicional e autocorr
 Interpretação: apesar do bom desempenho na validação cruzada, os resíduos não são plenamente satisfatórios (há espaço para melhorar com transformações, outlier handling, modelos SARIMA alternativos ou outras classes de modelos).
 
 Previsões
+![series_image_4](./series_image_4.png)
+![series_image_4](./series_image_4.jpeg)
 
 Gráfico de previsões com intervalo de confiança (modelo SARIMA):
 
