@@ -93,7 +93,17 @@ Sazonalidade mensal por ano:
 ACF e PACF:
 
 
-Coloque os arquivos imagem_serie_1.png, series_image_2.png e series_image_3.png na raiz do repositório (ou ajuste o caminho conforme sua pasta de figuras).
+- ![imagem_serie_1](./imagem_serie_1.png)
++ ![imagem_serie_1](./series_image_1.jpeg)
+
+- ![series_image_2](./series_image_2.png)
++ ![series_image_2](./series_image_2.jpeg)
+
+- ![series_image_3](./series_image_3.png)
++ ![series_image_3](./series_image_3.jpeg)
+
+- ![series_image_4](./series_image_4.png)
++ ![series_image_4](./series_image_4.jpeg)
 
 Modelagem
 
