@@ -3,7 +3,7 @@
 # Time-Series Energy Forecasting — ME607 (UNICAMP)
 
 Disciplina ME607 – Séries Temporais (Estatística/UNICAMP)
-Autores: Mateus Samuel Risso, Décio Miranda Filho, Nathan Augusto Elias, João Paulo de Castro Alves
+Autores: Mateus Samuel Risso, Decio Miranda Filho, Nathan Augusto Elias, João Paulo de Castro Alves
 
 Previsão do consumo residencial de eletricidade no Brasil usando modelos clássicos de séries temporais. O projeto compara diferentes abordagens (AR, ARIMA, Prophet e SARIMA) e documenta o processo de obtenção de dados, tratamento, validação cruzada, diagnóstico e geração de previsões.
 
