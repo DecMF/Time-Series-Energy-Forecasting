@@ -130,8 +130,7 @@ ARCH (Engle) / McLeod–Li: sinais de heterocedasticidade condicional e autocorr
 
 Interpretação: apesar do bom desempenho na validação cruzada, os resíduos não são plenamente satisfatórios (há espaço para melhorar com transformações, outlier handling, modelos SARIMA alternativos ou outras classes de modelos).
 
-Previsões
-![series_image_4](./series_image_4.png)
+## Previsões
 ![series_image_4](./series_image_4.jpeg)
 
 Gráfico de previsões com intervalo de confiança (modelo SARIMA):
